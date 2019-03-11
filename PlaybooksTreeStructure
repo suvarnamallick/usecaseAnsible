@@ -1,0 +1,164 @@
+.
+└── ansible
+    ├── @
+    ├── 1
+    ├── ami.pem
+    ├── dev
+    ├── playbooks_default
+    │   ├── 1
+    │   ├── control.retry
+    │   ├── control.yml
+    │   ├── database02.retry
+    │   ├── database02.yml
+    │   ├── database.retry
+    │   ├── demo
+    │   │   ├── app
+    │   │   │   ├── demo.py
+    │   │   │   ├── demo.wsgi
+    │   │   │   └── requirements.txt
+    │   │   └── demo.conf
+    │   ├── group_vars
+    │   │   └── all
+    │   │       ├── vars
+    │   │       └── vault
+    │   ├── hostname.retry
+    │   ├── hostname.yml
+    │   ├── loadbalancer01.retry
+    │   ├── loadbalancer01.yml
+    │   ├── loadbalancer.retry
+    │   ├── loadbalancer.yml
+    │   ├── roles
+    │   │   ├── apache2
+    │   │   │   ├── defaults
+    │   │   │   │   └── main.yml
+    │   │   │   ├── files
+    │   │   │   ├── handlers
+    │   │   │   │   └── main.yml
+    │   │   │   ├── meta
+    │   │   │   │   └── main.yml
+    │   │   │   ├── README.md
+    │   │   │   ├── tasks
+    │   │   │   │   └── main.yml
+    │   │   │   ├── templates
+    │   │   │   ├── tests
+    │   │   │   │   ├── inventory
+    │   │   │   │   └── test.yml
+    │   │   │   └── vars
+    │   │   │       └── main.yml
+    │   │   ├── control
+    │   │   │   ├── defaults
+    │   │   │   │   └── main.yml
+    │   │   │   ├── files
+    │   │   │   ├── handlers
+    │   │   │   │   └── main.yml
+    │   │   │   ├── meta
+    │   │   │   │   └── main.yml
+    │   │   │   ├── README.md
+    │   │   │   ├── tasks
+    │   │   │   │   └── main.yml
+    │   │   │   ├── templates
+    │   │   │   ├── tests
+    │   │   │   │   ├── inventory
+    │   │   │   │   └── test.yml
+    │   │   │   └── vars
+    │   │   │       └── main.yml
+    │   │   ├── demo_app
+    │   │   │   ├── defaults
+    │   │   │   │   └── main.yml
+    │   │   │   ├── files
+    │   │   │   │   └── demo
+    │   │   │   │       ├── app
+    │   │   │   │       │   ├── demo.py
+    │   │   │   │       │   └── requirements.txt
+    │   │   │   │       └── demo.conf
+    │   │   │   ├── handlers
+    │   │   │   │   └── main.yml
+    │   │   │   ├── meta
+    │   │   │   │   └── main.yml
+    │   │   │   ├── README.md
+    │   │   │   ├── tasks
+    │   │   │   │   └── main.yml
+    │   │   │   ├── templates
+    │   │   │   │   └── demo.wsgi.j2
+    │   │   │   ├── tests
+    │   │   │   │   ├── inventory
+    │   │   │   │   └── test.yml
+    │   │   │   └── vars
+    │   │   │       └── main.yml
+    │   │   ├── mysql
+    │   │   │   ├── defaults
+    │   │   │   │   └── main.yml
+    │   │   │   ├── files
+    │   │   │   ├── handlers
+    │   │   │   │   └── main.yml
+    │   │   │   ├── meta
+    │   │   │   │   └── main.yml
+    │   │   │   ├── README.md
+    │   │   │   ├── tasks
+    │   │   │   │   └── main.yml
+    │   │   │   ├── templates
+    │   │   │   ├── tests
+    │   │   │   │   ├── inventory
+    │   │   │   │   └── test.yml
+    │   │   │   └── vars
+    │   │   │       └── main.yml
+    │   │   └── nginx
+    │   │       ├── defaults
+    │   │       │   └── main.yml
+    │   │       ├── files
+    │   │       ├── handlers
+    │   │       │   └── main.yml
+    │   │       ├── meta
+    │   │       │   └── main.yml
+    │   │       ├── README.md
+    │   │       ├── tasks
+    │   │       │   └── main.yml
+    │   │       ├── templates
+    │   │       │   └── nginx.conf.j2
+    │   │       ├── tests
+    │   │       │   ├── inventory
+    │   │       │   └── test.yml
+    │   │       └── vars
+    │   │           └── main.yml
+    │   ├── site.retry
+    │   ├── site.yml
+    │   ├── stack_restart.retry
+    │   ├── stack_restart.yml
+    │   ├── stack_status.retry
+    │   ├── stack_status.yml
+    │   ├── templates
+    │   │   └── nginx.conf.j2
+    │   ├── UninstallNginx.retry
+    │   ├── UninstallNginx.yml
+    │   ├── webserver01.yml
+    │   ├── webserver.retry
+    │   └── webserver.yml
+    └── stack
+        ├── 1
+        ├── control.yml
+        ├── database02.retry
+        ├── database02.yml
+        ├── database.retry
+        ├── demo
+        │   ├── app
+        │   │   ├── demo.py
+        │   │   ├── demo.wsgi
+        │   │   └── requirements.txt
+        │   └── demo.conf
+        ├── hostname.retry
+        ├── hostname.yml
+        ├── loadbalancer01.retry
+        ├── loadbalancer01.yml
+        ├── loadbalancer.retry
+        ├── loadbalancer.yml
+        ├── stack_restart.retry
+        ├── stack_restart.yml
+        ├── stack_status.retry
+        ├── stack_status.yml
+        ├── templates
+        │   └── nginx.conf.j2
+        ├── UninstallNginx.retry
+        ├── UninstallNginx.yml
+        ├── webserver01.yml
+        ├── webserver.retry
+        └── webserver.yml
