@@ -1,0 +1,19 @@
+[webserver]
+ip-172-31-29-157 ansible_user=ubuntu ansible_ssh_private_key_file=/home/ec2-user/ansible/ami.pem
+ip-172-31-30-128 ansible_user=ubuntu ansible_ssh_private_key_file=/home/ec2-user/ansible/ami.pem
+
+
+
+[database02]
+ip-172-31-24-214 ansible_user=ubuntu ansible_ssh_private_key_file=/home/ec2-user/ansible/ami.pem
+
+
+
+[loadbalancer]
+ip-172-31-29-133 ansible_user=ubuntu ansible_ssh_private_key_file=/home/ec2-user/ansible/ami.pem
+
+
+
+[control]
+ip-172-31-31-113 ansible_connection=local
+

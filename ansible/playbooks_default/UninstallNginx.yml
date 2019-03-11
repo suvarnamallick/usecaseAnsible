@@ -1,0 +1,7 @@
+---
+- hosts: webserver
+  become: true
+  tasks:
+    - name: Uninstall nginx from webserver
+      apt: name=nginx-common state=absent update_cache=yes
+
