@@ -1,5 +1,5 @@
- 1005  git init
- 1006  git add .
- 1007  git commit -m "message"
- 1008  git remote add origin https://github.com/suvarnamallick/usecaseAnsible.git
- 1009  git push -u origin master
+ 1000  git init
+ 1001  git add .
+ 1002  git commit -m "message"
+ 1003  git remote add origin https://github.com/suvarnamallick/usecaseAnsible.git
+ 1004  git push -u origin master
